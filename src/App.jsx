@@ -34,7 +34,7 @@ export default function App() {
   }, [isLoggedIn]);
 
   return (
-    <Router>
+    <Router basename="/Neuro-Voice/">
       <ScrollToTop />
       <Routes>
         {/* Public Routes */}
